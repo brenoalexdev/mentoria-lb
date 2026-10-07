@@ -1,6 +1,8 @@
+import PrimeiraPage from "../components/sections/PrimeiraPage";
+
 export const dadosDoCurso = {
   theme: {
-    logoUrl: '/logo.png',
+    logoUrl: '/logo.png' ,
     primaryColor: 'bg-amber-500', 
     primaryHover: 'hover:bg-amber-600',
     secondaryColor: 'bg-black',
@@ -9,12 +11,13 @@ export const dadosDoCurso = {
     accentText: 'text-amber-500',
   },
   content: {
-    primeiraPage: {
-      tag: 'Mentoria Agropecuária LB',
-      headline: 'Transforme seu Confinamento em um Sistema Organizado e Lucrativo',
-      subheadline: 'Do animal que entra ao resultado que sai. Pare de depender da sorte e aprenda o método prático de manejo e gestão que gera sucesso real na pecuária.',
-      ctaText: 'Quero lucrar no confinamento',
-    },
+  PrimeiraPage: {
+    tag: 'ATENÇÃO PECUARISTA',
+    headline: 'Transforme seu confinamento em um sistema organizado e lucrativo',
+    subheadline: 'Do animal que entra ao resultado que sai. Pare de depender da sorte e aprenda o método prático de manejo e gestão que gera sucesso real na pecuária.',
+    ctaText: 'Quero lucrar no confinamento',
+    trustText: 'Método 100% Comprovado na Prática',
+  },
     ideia: {
       title: 'O resultado no confinamento não acontece por acaso',
       subtitle: 'Se você toma decisões baseadas apenas em "achismo", está deixando dinheiro na mesa. Veja onde os lucros costumam vazar:',
@@ -51,8 +54,8 @@ export const dadosDoCurso = {
       title: 'Assuma o controle da sua operação hoje',
       subtitle: 'Pare de errar e comece a trabalhar com números reais.',
       planName: 'Mentoria Agropecuária LB',
-      buttonText: 'Comprar agora na Hotmart',
-      hotmartLink: 'https://pay.hotmart.com/SEU_LINK_AQUI',
+      buttonText: 'Compre agora',
+      hotmartLink: 'LINK DA HOTMART(FALTA COLOCAR)',
     }
   }
 };

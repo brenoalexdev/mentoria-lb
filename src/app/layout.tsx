@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Mentoria Agropecuária LB | Lucas Borba',
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
     siteName: 'Mentoria LB',
     images: [
       {
-        url: '[https://mentoria-lb.netlify.app/logo.png](https://mentoria-lb.netlify.app/logo.png)',
+        url: 'https://mentoria-lb.netlify.app/logo.png',
         width: 800,
         height: 600,
         alt: 'Logo Agropecuária LB',
@@ -21,3 +22,15 @@ export const metadata: Metadata = {
     type: 'website',
   },
 };
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="pt-BR">
+      <body>{children}</body>
+    </html>
+  );
+}

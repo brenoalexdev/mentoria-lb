@@ -3,6 +3,7 @@ import Ideia from '../components/sections/Ideia';
 import SobreMim from '../components/sections/SobreMim';
 import MetodoLB from '../components/sections/MetodoLB';
 import Venda from '../components/sections/Venda';
+import Comparativo from '../components/sections/Comparativo'
 
 export default function Home() {
   return (
@@ -10,8 +11,10 @@ export default function Home() {
       <PrimeiraPage />
       <Ideia />
       <SobreMim />
+      <Comparativo/>
       <MetodoLB />
       <Venda />
+     
     </main>
   );
 }
