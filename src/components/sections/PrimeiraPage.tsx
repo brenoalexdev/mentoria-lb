@@ -8,7 +8,7 @@ export default function PrimeiraPage() {
     <section className={`flex flex-col items-center justify-center min-h-[90vh] px-8 py-20 text-center ${theme.secondaryColor}`}>
       <div className="max-w-4xl mx-auto space-y-8 flex flex-col items-center">
         {theme.logoUrl && (
-          <img src={theme.logoUrl} alt="Logo" className="h-32 md:h-48 w-auto mb-6 object-contain" />
+          <img src={theme.logoUrl} alt="logo" className="h-32 md:h-48 w-auto mb-6 object-contain" />
         )}
         <span className="inline-block px-4 py-1.5 rounded-full bg-amber-500 text-zinc-950 font-bold text-sm mb-4 shadow-sm">
         {content.PrimeiraPage.tag}

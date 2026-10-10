@@ -2,7 +2,7 @@ import PrimeiraPage from "../components/sections/PrimeiraPage";
 
 export const dadosDoCurso = {
   theme: {
-    logoUrl: '/logo.png' ,
+    logoUrl: '/logo.webp' ,
     primaryColor: 'bg-amber-500', 
     primaryHover: 'hover:bg-amber-600',
     secondaryColor: 'bg-black',
@@ -31,7 +31,7 @@ export const dadosDoCurso = {
     sobreMim: {
       title: 'Quem será o seu mentor?',
       name: 'Lucas Borba',
-      imagePath: '/lucas.png',
+      imagePath: '/lucas.webp',
       paragraphs: [
         'Eu sou Lucas Borba, da Agropecuária LB.',
         'Comecei na pecuária ainda muito novo e fui aprendendo na prática que resultado no confinamento não acontece por acaso. Ele é construído com compra bem feita, planejamento, adaptação e tomada de decisão.',
