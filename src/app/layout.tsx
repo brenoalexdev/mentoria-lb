@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     siteName: 'Mentoria LB',
     images: [
       {
-        url: 'https://mentoria-lb.netlify.app/logo.png',
+        url: 'https://mentoria-lb.netlify.app/logo.webp',
         width: 800,
         height: 600,
         alt: 'Logo Agropecuária LB',
