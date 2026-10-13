@@ -55,7 +55,7 @@ export const dadosDoCurso = {
       subtitle: 'Pare de errar e comece a trabalhar com números reais.',
       planName: 'Mentoria Agropecuária LB',
       buttonText: 'Compre agora',
-      hotmartLink: 'LINK DA HOTMART(FALTA COLOCAR)',
+      hotmartLink: 'https://go.hotmart.com/H108001670W',
     }
   }
 };
